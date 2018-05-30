@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<jnlp spec="1.0+" codebase="http://MI00308369:8080/poc-assinatura-online/assinatura/" href="assinaturaDocumentos.jnlp">
+	<information>
+		<title>Jnlp POC assinatura</title>
+		<vendor>Y2JM</vendor>
+		<description>POC assinatura</description>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se version="1.6+"/>
+		<jar href="assinaturaDocumentos.jar" main="true" download="eager"/>
+		<jar href="lib/bcmail-jdk15on-150.jar"/>
+		<jar href="lib/bcpkix-jdk15on-150.jar"/>
+		<jar href="lib/bcprov-ext-jdk15on-150.jar"/>
+		<jar href="lib/bcprov-jdk15on-150.jar"/>
+		<jar href="lib/certisigner-1.12.0.22.jar"/>
+		<jar href="lib/commons-codec-1.6.jar"/>
+		<jar href="lib/commons-io-2.4.jar"/>
+		<jar href="lib/commons-logging-api-1.1.jar"/>
+		<jar href="lib/license-manager-validator-1.jar"/>
+		<jar href="lib/logback-classic-1.0.6.jar"/>
+		<jar href="lib/logback-core-1.0.6.jar"/>
+		<jar href="lib/sdk-base-1.12.0.22.jar"/>
+		<jar href="lib/sdk-base-libs-1.12.0.22.jar"/>
+		<jar href="lib/sdk-provider-1.12.0.22.jar"/>
+		<jar href="lib/serializer-2.7.1.jar"/>
+		<jar href="lib/slf4j-api-1.6.5.jar"/>
+		<jar href="lib/xalan-2.7.1.jar"/>
+		<jar href="lib/xercesImpl-2.9.1.jar"/>
+		<jar href="lib/xmlsec-1.5.5.jar"/>
+		<jar href="lib/xstream-1.4.3.jar"/>
+		<jar href="lib/log4j-1.2.17.jar"/>
+		<property name="jnlp.url.arquivo.configuracao" value="http://MI00308369:8080/poc-assinatura-online/assinatura/configuracao/config.zip"/>    
+		<property name="jnlp.url.arquivo.assinatura" value="http://MI00308369:8080/poc-assinatura-online/assinatura/arquivos/arquivos.zip"/>    
+		<property name="jnlp.diretorio.temp.arquivos" value="tempAssinaturaArquivosCep"/>
+	</resources>
+	<application-desc main-class="br.com.petrobras.cep.AssinarDocumentos" />
+</jnlp>

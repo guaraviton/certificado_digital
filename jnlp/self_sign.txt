@@ -1,0 +1,28 @@
+--keystore
+keytool -genkeypair -alias tomcat -keyalg RSA -dname "CN=tomcat,OU=Petrobras,O=Softtek,L=Rio de Janeiro,ST=RJ,C=BR" -keypass teste123 -storepass teste123
+
+--principal
+jarsigner assinaturaDocumentos.jar fabio -storepass teste123
+
+--resources
+jarsigner bcmail-jdk15on-150.jar fabio -storepass teste123
+jarsigner bcpkix-jdk15on-150.jar fabio -storepass teste123
+jarsigner bcprov-ext-jdk15on-150.jar fabio -storepass teste123
+jarsigner bcprov-jdk15on-150.jar fabio -storepass teste123
+jarsigner certisigner-1.12.0.22.jar fabio -storepass teste123
+jarsigner commons-codec-1.6.jar fabio -storepass teste123
+jarsigner commons-io-2.4.jar fabio -storepass teste123
+jarsigner commons-logging-api-1.1.jar fabio -storepass teste123
+jarsigner license-manager-validator-1.jar fabio -storepass teste123
+jarsigner logback-classic-1.0.6.jar fabio -storepass teste123
+jarsigner logback-core-1.0.6.jar fabio -storepass teste123
+jarsigner sdk-base-1.12.0.22.jar fabio -storepass teste123
+jarsigner sdk-base-libs-1.12.0.22.jar fabio -storepass teste123
+jarsigner sdk-provider-1.12.0.22.jar fabio -storepass teste123
+jarsigner serializer-2.7.1.jar fabio -storepass teste123
+jarsigner slf4j-api-1.6.5.jar fabio -storepass teste123
+jarsigner xalan-2.7.1.jar fabio -storepass teste123
+jarsigner xercesImpl-2.9.1.jar fabio -storepass teste123
+jarsigner xmlsec-1.5.5.jar fabio -storepass teste123
+jarsigner xstream-1.4.3.jar fabio -storepass teste123
+jarsigner log4j-1.2.17.jar fabio -storepass teste123

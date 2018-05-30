@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<license>
+  <issueDate>2014-06-24 14:36:00.0 BRT</issueDate>
+  <endEffectiveDate>2015-06-24 12:00:00.0 BRT</endEffectiveDate>
+  <startEffectiveDate>2014-06-24 14:36:00.0 BRT</startEffectiveDate>
+  <valid>Y</valid>
+  <execution>9999</execution>
+  <client>
+    <id>65</id>
+  </client>
+  <product>
+    <id>859</id>
+  </product>
+  <type>
+    <id>13</id>
+  </type>
+  <modality>
+    <id>21</id>
+  </modality>
+  <version>
+    <number>1.12</number>
+    <product></product>
+  </version>
+  <implementationVersion>1.6.0.5</implementationVersion>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>nQV9ruLFpv8mXImqeloEt+mOkqI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+srk7X5uceTNFu0TENYPyvNXCvy54ZJURgq6GR6MwxgVbyy50E8y+xjfA5sQ4hI0UyJRGg07vW0gi
+AoOvbOqBtzmfwpFzeZIyGQ4sgSzamxjlKWx29Ze8Kl1rAtet1tpk200JxOc6EOxPjXsNF16D4vC9
+xsFwdN73yLkttTik2QI=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIECDCCAvCgAwIBAgIQWA+eTl0hTODDI3HrDMLI4TANBgkqhkiG9w0BAQUFADBfMQswCQYDVQQG
+EwJCUjEtMCsGA1UEChMkQ2VydGlzaWduIENlcnRpZmljYWRvcmEgRGlnaXRhbCBTLkEuMSEwHwYD
+VQQDExhBQyBDZXJ0aXNpZ24gQ29ycG9yYXRpdmEwHhcNMTMxMTEyMDAwMDAwWhcNMTQxMTExMjM1
+OTU5WjCBmTELMAkGA1UEBhMCQlIxLTArBgNVBAoUJENlcnRpc2lnbiBDZXJ0aWZpY2Fkb3JhIERp
+Z2l0YWwgUy5BLjEqMCgGA1UEAxMhR3VpbGhlcm1lIEF1Z3VzdG8gQ29ycmVhIGRhIFNpbHZhMS8w
+LQYJKoZIhvcNAQkBFiBndWlsaGVybWUuc2lsdmFAY2VydGlzaWduLmNvbS5icjCBnzANBgkqhkiG
+9w0BAQEFAAOBjQAwgYkCgYEA9rdHvDJKfg9NG+kKl0WkZ7N1ZSMUrlNfGhnA+namEpN5hUjAYDeT
+ZvYb1C7fOEQ5KbhsrYCnEUPEEwkwGHmDsxUBjmOOiFV+Ibs4zsVQMMQS3cRIy6eaIwLDUqGl6Tt3
+pKW6n2C3J8PTlfuO+EU8+PMlKkvstWSQ/cZZoA94cXsCAwEAAaOCAQcwggEDMDsGA1UdEQQ0MDKg
+MAYKKwYBBAGCNxQCA6AiDCBndWlsaGVybWUuc2lsdmFAY2VydGludHJhLmNvbS5icjAJBgNVHRME
+AjAAMGcGA1UdHwRgMF4wXKBaoFiGVmh0dHA6Ly9vbnNpdGVjcmwuY2VydGlzaWduLmNvbS5ici9y
+ZXBvc2l0b3Jpby9sY3IvQUNDZXJ0aXNpZ25Db3Jwb3JhdGl2YS9MYXRlc3RDUkwuY3JsMA4GA1Ud
+DwEB/wQEAwIF4DAfBgNVHSMEGDAWgBRtWppRyguiTDJ/cJPBsztNxclNujAfBgNVHSUEGDAWBggr
+BgEFBQcDAgYKKwYBBAGCNxQCAjANBgkqhkiG9w0BAQUFAAOCAQEAqSEslX36Agu2SB/aikpo2ZIb
+Wh2T2ACfnkctiCHiURpBdX4TEIUxjdjEGLT3wSyV/lzQALnKd5J9ijCeQqPnJmhoOtuYzzL/CmfX
+MiE33y80qXExXYC23lvESUcaqQvlhYjyXTNba3QCf5z4hhKzX70wkQD3MXvmLwtvPGu0sK2a5sxV
+tAjB1wSjEDIgBlG83MJ0gvSoJsi/+wk4FtM8uFKA5DCEysqb4XFJxJpQCvdEDARLBjfkkIW2fNkz
+4Gx6Ic9skIadNA7MnKNZR79t7E4MQQqvas7BdLp3chL+eNhjAffyHNiAN2bISydAVKjd+uJB1B5G
+k3oHVjZsNqLUow==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature></license>
